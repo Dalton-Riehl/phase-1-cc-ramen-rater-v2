@@ -38,7 +38,6 @@ const displayRamens = () => {
 
 const handleSubmit = () => {
   const ramenMenu = document.getElementById('ramen-menu');
-  const submitButton = document.getElementById('submit-button');
   const newRamenForm = document.getElementById('new-ramen');
   const name = document.getElementById('new-name').value;
   const restaurant = document.getElementById('new-restaurant').value;
